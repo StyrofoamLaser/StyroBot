@@ -1,0 +1,321 @@
+2/10/2016 10:17:17 PM|Fatal|WebSocket.processException|Microsoft.CSharp.RuntimeBinder.RuntimeBinderException: 'DiscordSharp.Objects.DiscordChannel' does not contain a definition for 'name'
+                               at CallSite.Target(Closure , CallSite , Object )
+                               at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+                               at DiscordBot.Program.<>c__DisplayClass3_0.<ClientTask>b__2(Object sender, DiscordMessageEventArgs e) in C:\Users\Cody\Documents\JoeBot 3.0\DiscordBot\DiscordBot\DiscordBot\Program.cs:line 56
+                               at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+                               at DiscordSharp.DiscordClient.MessageCreateEvents(JObject message)
+                               at DiscordSharp.DiscordClient.<Connect>b__217_0(Object sender, MessageEventArgs e)
+                               at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                               at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/10/2016 10:17:17 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                               at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                               at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/10/2016 10:41:55 PM|Fatal|WebSocket.processException|System.IndexOutOfRangeException: Index was outside the bounds of the array.
+                               at DiscordBot.Program.<>c__DisplayClass3_0.<ClientTask>b__1(Object sender, DiscordMessageEventArgs e) in C:\Users\Cody\Documents\JoeBot 3.0\DiscordBot\DiscordBot\DiscordBot\Program.cs:line 57
+                               at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+                               at DiscordSharp.DiscordClient.MessageCreateEvents(JObject message)
+                               at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                               at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                               at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/10/2016 10:41:55 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                               at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                               at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/10/2016 10:41:55 PM|Error|WebSocket.Send|The WebSocket connection has already been closed.
+2/10/2016 10:43:15 PM|Fatal|WebSocket.processException|System.IndexOutOfRangeException: Index was outside the bounds of the array.
+                               at DiscordBot.Program.<>c__DisplayClass3_0.<ClientTask>b__1(Object sender, DiscordMessageEventArgs e) in C:\Users\Cody\Documents\JoeBot 3.0\DiscordBot\DiscordBot\DiscordBot\Program.cs:line 45
+                               at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+                               at DiscordSharp.DiscordClient.MessageCreateEvents(JObject message)
+                               at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                               at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                               at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/10/2016 10:43:16 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                               at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                               at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/16/2016 2:42:14 PM|Fatal|WebSocket.processException|System.IndexOutOfRangeException: Index was outside the bounds of the array.
+                              at DiscordBot.Program.<>c__DisplayClass4_0.<ClientTask>b__1(Object sender, DiscordMessageEventArgs e) in C:\Users\Cody\Documents\JoeBot 3.0\DiscordBot\DiscordBot\DiscordBot\Program.cs:line 73
+                              at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+                              at DiscordSharp.DiscordClient.MessageCreateEvents(JObject message)
+                              at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/16/2016 2:42:14 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/16/2016 2:43:52 PM|Fatal|WebSocket.processException|System.IndexOutOfRangeException: Index was outside the bounds of the array.
+                              at DiscordBot.Program.<>c__DisplayClass4_0.<ClientTask>b__1(Object sender, DiscordMessageEventArgs e) in C:\Users\Cody\Documents\JoeBot 3.0\DiscordBot\DiscordBot\DiscordBot\Program.cs:line 73
+                              at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+                              at DiscordSharp.DiscordClient.MessageCreateEvents(JObject message)
+                              at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/16/2016 2:43:52 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/16/2016 2:53:30 PM|Fatal|WebSocket.processException|System.ArgumentOutOfRangeException: 'minValue' cannot be greater than maxValue.
+                           Parameter name: minValue
+                              at System.Random.Next(Int32 minValue, Int32 maxValue)
+                              at DiscordBot.Program.Roll(Int32 numDice, Int32 numSides) in C:\Users\Cody\Documents\JoeBot 3.0\DiscordBot\DiscordBot\DiscordBot\Program.cs:line 256
+                              at DiscordBot.Program.<>c__DisplayClass4_0.<ClientTask>b__3(Object sender, DiscordMessageEventArgs e) in C:\Users\Cody\Documents\JoeBot 3.0\DiscordBot\DiscordBot\DiscordBot\Program.cs:line 128
+                              at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+                              at DiscordSharp.DiscordClient.MessageCreateEvents(JObject message)
+                              at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/16/2016 2:53:30 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/16/2016 2:55:11 PM|Fatal|WebSocket.processException|System.OverflowException: Value was either too large or too small for an Int32.
+                              at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+                              at System.Int32.Parse(String s)
+                              at DiscordBot.Program.<>c__DisplayClass4_0.<ClientTask>b__3(Object sender, DiscordMessageEventArgs e) in C:\Users\Cody\Documents\JoeBot 3.0\DiscordBot\DiscordBot\DiscordBot\Program.cs:line 128
+                              at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+                              at DiscordSharp.DiscordClient.MessageCreateEvents(JObject message)
+                              at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/16/2016 2:55:11 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/16/2016 2:58:56 PM|Fatal|WebSocket.processException|System.FormatException: Input string was not in a correct format.
+                              at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+                              at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+                              at System.Int32.Parse(String s)
+                              at DiscordBot.Program.<>c__DisplayClass4_0.<ClientTask>b__3(Object sender, DiscordMessageEventArgs e) in C:\Users\Cody\Documents\JoeBot 3.0\DiscordBot\DiscordBot\DiscordBot\Program.cs:line 128
+                              at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+                              at DiscordSharp.DiscordClient.MessageCreateEvents(JObject message)
+                              at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/16/2016 2:58:56 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/16/2016 3:22:17 PM|Fatal|WebSocket.processException|System.IndexOutOfRangeException: Index was outside the bounds of the array.
+                              at DiscordBot.Program.<>c__DisplayClass4_0.<ClientTask>b__1(Object sender, DiscordMessageEventArgs e) in C:\Users\Cody\Documents\JoeBot 3.0\DiscordBot\DiscordBot\DiscordBot\Program.cs:line 73
+                              at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+                              at DiscordSharp.DiscordClient.MessageCreateEvents(JObject message)
+                              at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/16/2016 3:22:17 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/16/2016 3:22:46 PM|Fatal|WebSocket.processException|System.IndexOutOfRangeException: Index was outside the bounds of the array.
+                              at DiscordBot.Program.<>c__DisplayClass4_0.<ClientTask>b__3(Object sender, DiscordMessageEventArgs e) in C:\Users\Cody\Documents\JoeBot 3.0\DiscordBot\DiscordBot\DiscordBot\Program.cs:line 132
+                              at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+                              at DiscordSharp.DiscordClient.MessageCreateEvents(JObject message)
+                              at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/16/2016 3:22:46 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/16/2016 4:50:44 PM|Fatal|WebSocket.processException|System.Net.WebException: The remote server returned an error: (404) Not Found.
+                              at System.Net.HttpWebRequest.GetResponse()
+                              at ChatterBotAPI.Utils.Post(String url, IDictionary`2 parameters)
+                              at ChatterBotAPI.CleverbotSession.Think(ChatterBotThought thought)
+                              at ChatterBotAPI.CleverbotSession.Think(String text)
+                              at DiscordBot.Program.<>c__DisplayClass6_0.<ClientTask>b__3(Object sender, DiscordMessageEventArgs e) in C:\Users\Cody\Documents\JoeBot 3.0\DiscordBot\DiscordBot\DiscordBot\Program.cs:line 183
+                              at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+                              at DiscordSharp.DiscordClient.MessageCreateEvents(JObject message)
+                              at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/16/2016 4:50:44 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/16/2016 4:59:59 PM|Fatal|WebSocket.processException|System.Net.WebException: The remote server returned an error: (404) Not Found.
+                              at System.Net.HttpWebRequest.GetResponse()
+                              at ChatterBotAPI.Utils.Post(String url, IDictionary`2 parameters)
+                              at ChatterBotAPI.CleverbotSession.Think(ChatterBotThought thought)
+                              at ChatterBotAPI.CleverbotSession.Think(String text)
+                              at DiscordBot.Program.<>c__DisplayClass6_0.<ClientTask>b__3(Object sender, DiscordMessageEventArgs e) in C:\Users\Cody\Documents\JoeBot 3.0\DiscordBot\DiscordBot\DiscordBot\Program.cs:line 183
+                              at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+                              at DiscordSharp.DiscordClient.MessageCreateEvents(JObject message)
+                              at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/16/2016 4:59:59 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/16/2016 5:08:49 PM|Fatal|WebSocket.processException|System.Net.WebException: The remote server returned an error: (404) Not Found.
+                              at System.Net.HttpWebRequest.GetResponse()
+                              at ChatterBotAPI.Utils.Post(String url, IDictionary`2 parameters)
+                              at ChatterBotAPI.CleverbotSession.Think(ChatterBotThought thought)
+                              at ChatterBotAPI.CleverbotSession.Think(String text)
+                              at DiscordBot.Program.<>c__DisplayClass5_0.<ClientTask>b__3(Object sender, DiscordMessageEventArgs e) in C:\Users\Cody\Documents\JoeBot 3.0\DiscordBot\DiscordBot\DiscordBot\Program.cs:line 177
+                              at System.EventHandler`1.Invoke(Object sender, TEventArgs e)
+                              at DiscordSharp.DiscordClient.MessageCreateEvents(JObject message)
+                              at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/16/2016 5:08:49 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/22/2016 1:08:30 PM|Fatal|WebSocket.processException|System.NullReferenceException: Object reference not set to an instance of an object.
+                              at DiscordSharp.DiscordClient.GetChannelsList(JObject m)
+                              at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/22/2016 1:08:30 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/22/2016 1:09:11 PM|Fatal|WebSocket.processException|System.NullReferenceException: Object reference not set to an instance of an object.
+                              at DiscordSharp.DiscordClient.GetChannelsList(JObject m)
+                              at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/22/2016 1:09:11 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/22/2016 1:10:21 PM|Fatal|WebSocket.processException|System.NullReferenceException: Object reference not set to an instance of an object.
+                              at DiscordSharp.DiscordClient.GetChannelsList(JObject m)
+                              at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/22/2016 1:10:21 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/22/2016 1:11:11 PM|Fatal|WebSocket.processException|System.NullReferenceException: Object reference not set to an instance of an object.
+                              at DiscordSharp.DiscordClient.GetChannelsList(JObject m)
+                              at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/22/2016 1:11:11 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/22/2016 1:11:33 PM|Fatal|WebSocket.processException|System.NullReferenceException: Object reference not set to an instance of an object.
+                              at DiscordSharp.DiscordClient.GetChannelsList(JObject m)
+                              at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/22/2016 1:11:33 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/22/2016 1:12:20 PM|Fatal|WebSocket.processException|System.NullReferenceException: Object reference not set to an instance of an object.
+                              at DiscordSharp.DiscordClient.GetChannelsList(JObject m)
+                              at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/22/2016 1:12:20 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/22/2016 1:13:20 PM|Fatal|WebSocket.processException|System.NullReferenceException: Object reference not set to an instance of an object.
+                              at DiscordSharp.DiscordClient.GetChannelsList(JObject m)
+                              at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/22/2016 1:13:20 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/22/2016 1:13:56 PM|Fatal|WebSocket.processException|System.NullReferenceException: Object reference not set to an instance of an object.
+                              at DiscordSharp.DiscordClient.GetChannelsList(JObject m)
+                              at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/22/2016 1:13:56 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/22/2016 1:14:27 PM|Fatal|WebSocket.processException|System.NullReferenceException: Object reference not set to an instance of an object.
+                              at DiscordSharp.DiscordClient.GetChannelsList(JObject m)
+                              at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/22/2016 1:14:27 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/22/2016 1:14:49 PM|Fatal|WebSocket.processException|System.NullReferenceException: Object reference not set to an instance of an object.
+                              at DiscordSharp.DiscordClient.GetChannelsList(JObject m)
+                              at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/22/2016 1:14:49 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/22/2016 1:15:17 PM|Fatal|WebSocket.processException|System.NullReferenceException: Object reference not set to an instance of an object.
+                              at DiscordSharp.DiscordClient.GetChannelsList(JObject m)
+                              at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/22/2016 1:15:17 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/22/2016 1:17:46 PM|Fatal|WebSocket.processException|System.NullReferenceException: Object reference not set to an instance of an object.
+                              at DiscordSharp.DiscordClient.GetChannelsList(JObject m)
+                              at DiscordSharp.DiscordClient.<Connect>b__211_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/22/2016 1:17:46 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/22/2016 1:46:28 PM|Fatal|WebSocket.processException|System.NullReferenceException: Object reference not set to an instance of an object.
+                              at DiscordSharp.DiscordClient.GetChannelsList(JObject m)
+                              at DiscordSharp.DiscordClient.<Connect>b__228_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/22/2016 1:46:28 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/22/2016 1:49:23 PM|Fatal|WebSocket.processException|System.NullReferenceException: Object reference not set to an instance of an object.
+                              at DiscordSharp.DiscordClient.GetChannelsList(JObject m)
+                              at DiscordSharp.DiscordClient.<Connect>b__228_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/22/2016 1:49:23 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/22/2016 1:50:10 PM|Fatal|WebSocket.processException|System.NullReferenceException: Object reference not set to an instance of an object.
+                              at DiscordSharp.DiscordClient.GetChannelsList(JObject m)
+                              at DiscordSharp.DiscordClient.<Connect>b__228_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/22/2016 1:50:10 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/22/2016 1:51:49 PM|Fatal|WebSocket.processException|System.NullReferenceException: Object reference not set to an instance of an object.
+                              at DiscordSharp.DiscordClient.GetChannelsList(JObject m)
+                              at DiscordSharp.DiscordClient.<Connect>b__228_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/22/2016 1:51:49 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/22/2016 1:53:03 PM|Fatal|WebSocket.processException|System.NullReferenceException: Object reference not set to an instance of an object.
+                              at DiscordSharp.DiscordClient.GetChannelsList(JObject m)
+                              at DiscordSharp.DiscordClient.<Connect>b__228_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/22/2016 1:53:03 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/22/2016 1:54:37 PM|Fatal|WebSocket.processException|System.NullReferenceException: Object reference not set to an instance of an object.
+                              at DiscordSharp.DiscordClient.GetChannelsList(JObject m)
+                              at DiscordSharp.DiscordClient.<Connect>b__228_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/22/2016 1:54:37 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/22/2016 1:56:44 PM|Fatal|WebSocket.processException|System.NullReferenceException: Object reference not set to an instance of an object.
+                              at DiscordSharp.DiscordClient.GetChannelsList(JObject m)
+                              at DiscordSharp.DiscordClient.<Connect>b__228_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/22/2016 1:56:44 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/22/2016 1:57:02 PM|Fatal|WebSocket.processException|System.NullReferenceException: Object reference not set to an instance of an object.
+                              at DiscordSharp.DiscordClient.GetChannelsList(JObject m)
+                              at DiscordSharp.DiscordClient.<Connect>b__228_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/22/2016 1:57:02 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
+2/22/2016 2:01:23 PM|Fatal|WebSocket.processException|System.NullReferenceException: Object reference not set to an instance of an object.
+                              at DiscordSharp.DiscordClient.GetChannelsList(JObject m)
+                              at DiscordSharp.DiscordClient.<Connect>b__228_0(Object sender, MessageEventArgs e)
+                              at WebSocketSharp.Ext.Emit[TEventArgs](EventHandler`1 eventHandler, Object sender, TEventArgs e)
+                              at WebSocketSharp.WebSocket.<>c__DisplayClass15.<startReceiving>b__13(WebSocketFrame frame)
+2/22/2016 2:01:23 PM|Fatal|WebSocket.processException|WebSocketSharp.WebSocketException: The header part of a frame cannot be read from the data source.
+                              at WebSocketSharp.WebSocketFrame.<>c__DisplayClass7.<ReadAsync>b__6(Byte[] header)
+                              at WebSocketSharp.Ext.<>c__DisplayClass6.<ReadBytesAsync>b__5(IAsyncResult ar)
